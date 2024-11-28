@@ -1,0 +1,73 @@
+*{
+    background-color: blanchedalmond;
+    color: black;
+    font-size: 19px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    background-color: burlywood;
+    font-size: 25px;
+    color: rgb(11, 132, 134);
+    margin-right: 85%;
+    text-align: center;
+}
+.para{
+    color: rgb(14, 7, 5);
+}
+table,th,td{
+    margin: 1%;
+    padding: auto;
+    border: solid black;
+}
+video{
+    height: 400px;
+    width: 400px;
+    border-radius: 8px; 
+    margin-top: 0;
+    padding-top: 0%;
+}
+footer p{
+    color: rgb(45, 2, 2);
+    background-color: rgb(148, 70, 41);
+    width: 100%;
+    height: 40px;
+    padding-top: 1%;
+    padding-left: 0;
+    margin-left: 0%;
+    font: bold;
+}
+form{
+    border: solid rgb(93, 10, 10);
+    border-radius: 8px;
+    padding: 1%;
+    margin-right: 60%;
+}
+
+.horizontal-nav {
+    background-color: rgb(26, 127, 163);
+    list-style: none; /* Remove default list styling */
+    padding: 1%; /* Remove default padding */
+    margin-top: 0.5%; /* Remove default margin */
+    display: flex; /* This will make the <ul> elements display horizontally */
+}
+
+.horizontal-nav li {
+    background-color: rgb(72, 27, 11);
+    margin-right: 20px; /* Space between each item */
+}
+
+.horizontal-nav a {
+    background-color: rgb(72, 27, 11);
+    text-decoration: none; /* Remove underlines */
+    color: white; /* Change text color */
+    font-weight: bold; /* Make text bold */
+}
+.horizontal-nav a:hover {
+    color: black; /* Change text color on hover */
+    background-color: burlywood; /* Change background color on hover */
+}
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
